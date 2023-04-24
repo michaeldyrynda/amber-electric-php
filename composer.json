@@ -3,12 +3,15 @@
     "description": "A PHP SDK for interacting with the Amber Electric API",
     "type": "library",
     "require": {
-        "sammyjo20/saloon": "^2.6"
+        "sammyjo20/saloon": "^2.6",
+        "nesbot/carbon": "^2.66",
+        "archtechx/enums": "^0.3.2"
     },
     "require-dev": {
         "pestphp/pest": "^2.5",
         "phpstan/phpstan": "^1.10",
-        "laravel/pint": "^1.9"
+        "laravel/pint": "^1.9",
+        "spatie/ray": "^1.37"
     },
     "license": "MIT",
     "autoload": {

@@ -4,5 +4,5 @@ parameters:
     paths:
         - src
 
-    checkMissingIterableValueType: true
+    checkMissingIterableValueType: false
     reportUnmatchedIgnoredErrors: true

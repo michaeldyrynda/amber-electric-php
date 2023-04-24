@@ -1,0 +1,20 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Content-Length": "1369",
+    "Connection": "keep-alive",
+    "Date": "Mon, 24 Apr 2023 05:42:45 GMT",
+    "x-amzn-RequestId": "411af6f8-25fa-416c-9196-c2e75415e859",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "*",
+    "x-amzn-ErrorType": "AccessDeniedException",
+    "x-amz-apigw-id": "D3iBeG3lywMFX2A=",
+    "X-Amzn-Trace-Id": "Root=1-644616d5-18c8d8de6553dfd42958e793",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 e303aca6dac0332bf61b6c735c629988.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MEL50-C2",
+    "X-Amz-Cf-Id": "UZnILGQlr2MmlQeHt717p44Uw7nr0DV9APkba0oxVEmDgVDrikWG3g=="
+  },
+  "data": "[{\"type\":\"ActualInterval\",\"duration\":5,\"spotPerKwh\":6.12,\"perKwh\":24.33,\"date\":\"2021-05-05\",\"nemTime\":\"2021-05-06T12:30:00+10:00\",\"startTime\":\"2021-05-05T02:00:01Z\",\"endTime\":\"2021-05-05T02:30:00Z\",\"renewables\":45,\"channelType\":\"general\",\"tariffInformation\":{\"period\":\"offPeak\",\"season\":\"default\",\"block\":2,\"demandWindow\":true},\"spikeStatus\":\"none\",\"descriptor\":\"negative\"},{\"type\":\"ForecastInterval\",\"duration\":5,\"spotPerKwh\":6.12,\"perKwh\":24.33,\"date\":\"2021-05-05\",\"nemTime\":\"2021-05-06T12:30:00+10:00\",\"startTime\":\"2021-05-05T02:00:01Z\",\"endTime\":\"2021-05-05T02:30:00Z\",\"renewables\":45,\"channelType\":\"general\",\"tariffInformation\":{\"period\":\"offPeak\",\"season\":\"default\",\"block\":2,\"demandWindow\":true},\"spikeStatus\":\"none\",\"descriptor\":\"negative\",\"range\":{\"min\":0,\"max\":0}},{\"type\":\"CurrentInterval\",\"duration\":5,\"spotPerKwh\":6.12,\"perKwh\":24.33,\"date\":\"2021-05-05\",\"nemTime\":\"2021-05-06T12:30:00+10:00\",\"startTime\":\"2021-05-05T02:00:01Z\",\"endTime\":\"2021-05-05T02:30:00Z\",\"renewables\":45,\"channelType\":\"general\",\"tariffInformation\":{\"period\":\"offPeak\",\"season\":\"default\",\"block\":2,\"demandWindow\":true},\"spikeStatus\":\"none\",\"descriptor\":\"negative\",\"range\":{\"min\":0,\"max\":0},\"estimate\":true}]"
+}

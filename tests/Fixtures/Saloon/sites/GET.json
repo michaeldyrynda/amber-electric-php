@@ -1,0 +1,19 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Content-Length": "244",
+    "Connection": "keep-alive",
+    "Date": "Mon, 24 Apr 2023 03:45:39 GMT",
+    "x-amzn-RequestId": "0a4e8918-daf3-4c90-a465-04fff8c2d384",
+    "Access-Control-Allow-Origin": "*",
+    "x-amz-apigw-id": "D3Q3PH8IywMFSJw=",
+    "X-Amzn-Trace-Id": "Root=1-6445fb61-5be1b04703df929d59048a34",
+    "Access-Control-Allow-Credentials": "true",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 4c4c7fb99a8cc0e47243619cdbb71c00.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MEL50-C2",
+    "X-Amz-Cf-Id": "TZQO5l0m7bvoVLsGde4kPG-HpetQbH_8PFJn2mW7ylsS4CWaKpTXMg=="
+  },
+  "data": "[{\"id\":\"01F5A5CRKMZ5BCX9P1S4V990AM\",\"nmi\":\"3052282872\",\"channels\":[{\"identifier\":\"E1\",\"type\":\"general\",\"tariff\":\"A100\"}],\"network\":\"Jemena\",\"status\":\"active\",\"activeFrom\":\"2022-01-01\",\"closedOn\":\"2022-05-01\"}]"
+}

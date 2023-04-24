@@ -1,0 +1,20 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Content-Length": "497",
+    "Connection": "keep-alive",
+    "Date": "Mon, 24 Apr 2023 04:07:29 GMT",
+    "x-amzn-RequestId": "94c6026c-a432-47b5-8ec0-caca87fc18d1",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "*",
+    "x-amzn-ErrorType": "AccessDeniedException",
+    "x-amz-apigw-id": "D3UESESHSwMFRTw=",
+    "X-Amzn-Trace-Id": "Root=1-64460081-083c1c455e33e8c429fd658e",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 67ea8416eafbda87528a822ad116e5a4.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MEL50-C2",
+    "X-Amz-Cf-Id": "5EIj_iwA93fzFGll10E7-B81Cj5FB-EE4VjF_CX1Aj3EX4JIPrxNzA=="
+  },
+  "data": "[{\"type\":\"Usage\",\"duration\":5,\"spotPerKwh\":6.12,\"perKwh\":24.33,\"date\":\"2021-05-05\",\"nemTime\":\"2021-05-06T12:30:00+10:00\",\"startTime\":\"2021-05-05T02:00:01Z\",\"endTime\":\"2021-05-05T02:30:00Z\",\"renewables\":45,\"channelType\":\"general\",\"tariffInformation\":{\"period\":\"offPeak\",\"season\":\"default\",\"block\":2,\"demandWindow\":true},\"spikeStatus\":\"none\",\"descriptor\":\"negative\",\"channelIdentifier\":\"E1\",\"kwh\":0,\"quality\":\"estimated\",\"cost\":0}]"
+}
