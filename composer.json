@@ -1,0 +1,38 @@
+{
+    "name": "dyrynda/amber-electric-php",
+    "description": "A PHP SDK for interacting with the Amber Electric API",
+    "type": "library",
+    "require": {
+        "sammyjo20/saloon": "^2.6"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.5",
+        "phpstan/phpstan": "^1.10",
+        "laravel/pint": "^1.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dyrynda\\AmberElectric\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Dyrynda",
+            "email": "michael@dyrynda.com.au"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "lint": [
+            "vendor/bin/pint --test",
+            "vendor/bin/phpstan analyse"
+        ]
+    }
+}
