@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Dyrynda\AmberElectric\Response;
 
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 final readonly class SiteUsage
 {

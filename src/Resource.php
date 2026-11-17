@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Dyrynda\AmberElectric;
 
 use RuntimeException;
-use Saloon\Contracts\Request;
-use Saloon\Contracts\Response;
+use Saloon\Http\Request;
+use Saloon\Http\Response;
 
 abstract class Resource
 {

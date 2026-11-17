@@ -6,6 +6,7 @@ namespace Dyrynda\AmberElectric;
 
 use Dyrynda\AmberElectric\Resource\RenewablesResource;
 use Dyrynda\AmberElectric\Resource\SiteResource;
+use Saloon\Http\Auth\TokenAuthenticator;
 use Saloon\Http\Connector;
 use Saloon\Traits\Plugins\AcceptsJson;
 
@@ -13,10 +14,7 @@ class AmberElectric extends Connector
 {
     use AcceptsJson;
 
-    public function __construct(protected string $token)
-    {
-        $this->withTokenAuth($this->token);
-    }
+    public function __construct(protected string $token) {}
 
     public function renewables(): RenewablesResource
     {
@@ -31,5 +29,10 @@ class AmberElectric extends Connector
     public function sites(): SiteResource
     {
         return new SiteResource($this);
+    }
+
+    protected function defaultAuth(): TokenAuthenticator
+    {
+        return new TokenAuthenticator($this->token);
     }
 }
