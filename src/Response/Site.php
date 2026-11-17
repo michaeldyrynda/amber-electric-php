@@ -10,7 +10,7 @@ use Dyrynda\AmberElectric\Enum\Site\Status;
 final readonly class Site
 {
     /**
-     * @param  \Dyrynda\AmberElectric\Response\Channel[]  $channels
+     * @param  Channel[]  $channels
      */
     private function __construct(
         public string $id,
@@ -20,8 +20,7 @@ final readonly class Site
         public Status $status,
         public ?CarbonImmutable $activeFrom,
         public ?CarbonImmutable $closedOn
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(array $response): self
     {
@@ -33,6 +32,6 @@ final readonly class Site
             status: Status::from($response['status']),
             activeFrom: isset($response['activeFrom']) ? CarbonImmutable::parse($response['activeFrom']) : null,
             closedOn: isset($response['closedOn']) ? CarbonImmutable::parse($response['closedOn']) : null
-);
+        );
     }
 }

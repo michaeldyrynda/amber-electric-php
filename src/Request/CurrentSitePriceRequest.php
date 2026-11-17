@@ -16,8 +16,7 @@ final class CurrentSitePriceRequest extends Request
         protected ?int $next = null,
         protected ?int $previous = null,
         protected ?int $resolution = 30
-    ) {
-    }
+    ) {}
 
     public function resolveEndpoint(): string
     {

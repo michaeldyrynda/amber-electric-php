@@ -12,8 +12,7 @@ abstract class Resource
 {
     public function __construct(
         protected AmberElectric $connector
-    ) {
-    }
+    ) {}
 
     public function send(Request $request): Response
     {

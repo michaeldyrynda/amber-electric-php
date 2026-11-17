@@ -31,8 +31,7 @@ final readonly class Usage
         public float $kwh,
         public Quality $quality,
         public float $cost
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(array $response): self
     {

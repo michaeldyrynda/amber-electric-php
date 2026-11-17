@@ -28,8 +28,7 @@ final readonly class Price
         public SpikeStatus $spikeStatus,
         public ?Descriptor $descriptor,
         public ?Range $range
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(array $response): self
     {

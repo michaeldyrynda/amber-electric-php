@@ -9,12 +9,11 @@ use Saloon\Contracts\Response;
 final readonly class CurrentRenewables
 {
     /**
-     * @param  \Dyrynda\AmberElectric\Response\Renewables[]  $renewables
+     * @param  Renewables[]  $renewables
      */
     private function __construct(
         public array $renewables
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(Response $response): self
     {

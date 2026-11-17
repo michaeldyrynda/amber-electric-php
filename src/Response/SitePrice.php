@@ -9,12 +9,11 @@ use Saloon\Contracts\Response;
 final readonly class SitePrice
 {
     /**
-     * @param  \Dyrynda\AmberElectric\Response\Price[]  $prices
+     * @param  Price[]  $prices
      */
     private function __construct(
         public array $prices
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(Response $response): self
     {

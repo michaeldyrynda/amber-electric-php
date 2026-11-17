@@ -9,8 +9,7 @@ final readonly class Range
     private function __construct(
         public float $max,
         public float $min
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(array $response): self
     {

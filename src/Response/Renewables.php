@@ -19,8 +19,7 @@ final readonly class Renewables
         public CarbonImmutable $endTime,
         public int $renewables,
         public ?Descriptor $descriptor
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(array $response): self
     {

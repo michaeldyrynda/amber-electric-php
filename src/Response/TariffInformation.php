@@ -14,8 +14,7 @@ final readonly class TariffInformation
         public ?Season $season,
         public ?int $block,
         public ?bool $demandWindow
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(array $response): self
     {

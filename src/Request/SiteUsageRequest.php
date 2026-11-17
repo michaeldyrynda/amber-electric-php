@@ -17,8 +17,7 @@ final class SiteUsageRequest extends Request
         protected CarbonInterface $start,
         protected CarbonInterface $end,
         protected ?int $resolution = 30
-    ) {
-    }
+    ) {}
 
     public function resolveEndpoint(): string
     {

@@ -9,12 +9,11 @@ use Saloon\Contracts\Response;
 final readonly class SiteList
 {
     /**
-     * @param  \Dyrynda\AmberElectric\Response\Site[]  $sites
+     * @param  Site[]  $sites
      */
     private function __construct(
         public array $sites
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(Response $response): self
     {

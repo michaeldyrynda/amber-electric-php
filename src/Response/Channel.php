@@ -12,8 +12,7 @@ final readonly class Channel
         public string $identifier,
         public Type $type,
         public string $tariff
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(array $response): self
     {

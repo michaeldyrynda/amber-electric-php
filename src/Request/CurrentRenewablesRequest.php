@@ -14,8 +14,7 @@ final class CurrentRenewablesRequest extends Request
 
     public function __construct(
         protected State $state
-    ) {
-    }
+    ) {}
 
     public function resolveEndpoint(): string
     {

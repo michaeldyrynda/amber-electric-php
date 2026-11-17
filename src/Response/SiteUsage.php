@@ -9,12 +9,11 @@ use Saloon\Contracts\Response;
 final readonly class SiteUsage
 {
     /**
-     * @param  \Dyrynda\AmberElectric\Response\Usage[]  $usage
+     * @param  Usage[]  $usage
      */
     private function __construct(
         public array $usage
-    ) {
-    }
+    ) {}
 
     public static function fromResponse(Response $response): self
     {

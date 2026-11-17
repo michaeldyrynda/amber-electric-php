@@ -18,8 +18,7 @@ final class SitePriceRequest extends Request
         protected ?CarbonInterface $start = null,
         protected ?CarbonInterface $end = null,
         protected ?int $resolution = 30
-    ) {
-    }
+    ) {}
 
     public function resolveEndpoint(): string
     {
